@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="es-ES">	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1"><title>Fikileaks - Plantilla:Superposición/uso</title><style id='inline-css' type='text/css'>body {margin-left: auto;margin-right: auto;padding: 30px;border: 2px black solid;font-family: Arial, Helvetica, sans-serif;}#cont { font-size: 0.7em; }#firma { font-size: 0.7em; text-align:right; }.thumbcaption { font-size: 0.7em; border: 1px #ccc solid; font-style: italic;} </style></head><body><h1>Plantilla:Superposición/uso</h1><p style="text-align:right"><img src="images/default.png" /> De: <a href="https://twitter.com/lafrikipedia">La Frikipedia</a>, la enciclopedia <strong>extremadamente</strong> seria.</a><table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <a  class="image"><img alt="Friki puzzle.png" src="images/thumb/3/33/Friki_puzzle.png/36px-friki_puzzle.png"" width="36" height="36" srcset="/images/thumb/3/33/Friki_puzzle.png/54px-Friki_puzzle.png 1.5x, /images/thumb/3/33/Friki_puzzle.png/72px-Friki_puzzle.png 2x" /></a></div></td>
+<td class="ambox-text"><b>Este anexo es una documentación acerca del uso apropiado de la plantilla Superposición.</b><br />
+<span style="font-size:90%">Los cambios hechos aquí serán transcluidos a <a href="frikileaks-plantilla—superposici%c3%b3n.html" title="Plantilla:Superposición">esta página</a>. Puedes continuar <span class="plainlinks"><a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—superposici%c3%b3n-uso.html"><font color="#002BB8">editando</font></a></span> esta sección si así lo preferieres.</span></td>
+
+</tr>
+</table>
+<h2><span class="mw-headline" id="Par.C3.A1metros">Parámetros</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
+<ul><li><b>ancho-r=</b> Anchura del recuadro en donde irá la imagen. Ajustar hasta conseguir el tamaño deseado.</li>
+<li><b>alto-r=</b> Altura del recuadro en donde irá la imagen. Ibídem.</li>
+<li><b>imagen1=</b> Link completo de la primera imagen (frente). Formato: "<i>/images/8/84/Archivo.png</i>".</li>
+<li><b>imagen2=</b> Link completo de la segunda imagen (atrás). Formato: Ibídem.</li>
+<li><b>ancho1=</b> Anchura de la primera imagen.</li>
+<li><b>alto1=</b> Altura de la primera imagen.</li>
+<li><b>ancho2=</b> Anchura de la segunda imagen. No rellenar si ambas imágenes tienen iguales dimensiones.</li>
+<li><b>alto2=</b> Altura de la segunda imagen. Ibídem</li>
+<li><b>top=</b> Posición de la segunda imagen. Necesita ser calibrado manualmente.</li></ul>
+<ul><li><b>nombre=</b> Nombre del efecto. Valor por defecto: "cambio". Usar solo si hay otros widgets en la página.</li>
+<li><b>tiempo=</b> Duración de la transición entre imagen e imagen. Valor por defecto: "0.3"</li></ul>
+<h3><span class="mw-headline" id="Especiales_.28opcional.29">Especiales (opcional)</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+<ul><li><b>index1=</b> Posición de la primera imagen con relación a la página. Tiene que ser mayor a "index2". Valor por defecto: 2.</li>
+<li><b>index2=</b> Posición de la segunda imagen con relación a la página. Tiene que ser menor a "index1". Valor por defecto: 1.</li>
+<li><b>especial=</b> Funciones especiales, colocar el valor según corresponda: </li></ul>
+<dl><dd><dl><dd><dl><dd><dl><dd><ul><li>T= Si se desea colocar un texto a la superposición.</li>
+<li>E= Si se desea que la superposición enlace a alguna página.</li>
+<li>TE= Si se desean las dos cosas.</li></ul></dd></dl></dd></dl></dd></dl></dd></dl>
+<ul><li><b>texto=</b> Texto a aparecer en el recuadro.</li>
+<li><b>enlace=</b> Dirección del enlace. Formato: "<i>/friki/Artículo</i>".</li></ul>
+<h2><span class="mw-headline" id="Ejemplos">Ejemplos</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
+<ul><li><code>{{Superposición|ancho-r=56|alto-r=53|imagen1=/images/8/84/Buton-green.png|ancho1=56|alto1=48|imagen2=/images/0/09/Buton-green-off.png|top=-48|nombre=efecto|tiempo=0.3}}</code></li></ul>
+<div style="width:56px; height:53px; overflow:hidden">
+<p><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+
+.transformista efecto {
+
+        display:block; position:relative;
+	
+	opacity:1;
+	
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+	transition: all 0.3s ease-in;
+}
+
+.transformista efecto:hover {
+	
+	opacity:0;
+
+	-webkit-transition: all 0.3s ease-out;  
+	-moz-transition: all 0.3s ease-out;  
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+</style>
+</head>
+
+<span class="transformista"><efecto style="z-index:2"><img src="images/8/84/buton-green.png"" width="56" height="48" /></efecto>
+<span style="position:relative; top:-48px; z-index:1"><img src="images/0/09/buton-green-off.png"" width="56px" height="48px" /></span></span>
+</p>
+</div>
+<p><br />
+</p>
+<ul><li><code>{{Superposición|ancho-r=56|alto-r=53|imagen1=/images/8/84/Buton-green.png|ancho1=56|alto1=48|imagen2=/images/0/09/Buton-green-off.png|top=-48|nombre=efecto|tiempo=0.3|especial=TE|texto=A un lugar muy lejano...|enlace=/friki/Especial:Aleatoria}}</code></li></ul>
+<div style="width:56px; height:53px; overflow:hidden">
+<p><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+
+.transformista efecto {
+
+        display:block; position:relative;
+	
+	opacity:1;
+	
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+	transition: all 0.3s ease-in;
+}
+
+.transformista efecto:hover {
+	
+	opacity:0;
+
+	-webkit-transition: all 0.3s ease-out;  
+	-moz-transition: all 0.3s ease-out;  
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+</style>
+</head>
+
+<span class="transformista"><efecto style="z-index:2"><span title="A un lugar muy lejano..."><a ><img src="images/8/84/buton-green.png"" width="56" height="48" /></span></a></efecto>
+<span style="position:relative; top:-48px; z-index:1"><img src="images/0/09/buton-green-off.png"" width="56px" height="48px" /></span></span>
+</p>
+</div>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.044 seconds
+Real time usage: 0.050 seconds
+Preprocessor visited node count: 217/1000000
+Preprocessor generated node count: 1003/1000000
+Post‐expand include size: 2903/2097152 bytes
+Template argument size: 782/2097152 bytes
+Highest expansion depth: 8/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   23.714      1 - -total
+ 62.06%   14.718      1 - Plantilla:Documentación
+ 38.71%    9.179      1 - Plantilla:Metaplantilla
+ 32.81%    7.781      2 - Plantilla:Superposición
+ 11.13%    2.639      1 - Plantilla:Editar
+-->
+<div id="cont"><p>Autor(es): <ul><li>Shadowmura</li></ul></p></div><div id="firma">Frikipedia 2005-2016, Licencia <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html">GFDL 1.2</a> - Extraído por FrikiLeaks</div></body></html>

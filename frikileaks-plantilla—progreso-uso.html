@@ -1,0 +1,200 @@
+<!DOCTYPE html><html lang="es-ES">	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1"><title>Fikileaks - Plantilla:Progreso/uso</title><style id='inline-css' type='text/css'>body {margin-left: auto;margin-right: auto;padding: 30px;border: 2px black solid;font-family: Arial, Helvetica, sans-serif;}#cont { font-size: 0.7em; }#firma { font-size: 0.7em; text-align:right; }.thumbcaption { font-size: 0.7em; border: 1px #ccc solid; font-style: italic;} </style></head><body><h1>Plantilla:Progreso/uso</h1><p style="text-align:right"><img src="images/default.png" /> De: <a href="https://twitter.com/lafrikipedia">La Frikipedia</a>, la enciclopedia <strong>extremadamente</strong> seria.</a><table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <a  class="image"><img alt="Friki puzzle.png" src="images/thumb/3/33/Friki_puzzle.png/36px-friki_puzzle.png"" width="36" height="36" srcset="/images/thumb/3/33/Friki_puzzle.png/54px-Friki_puzzle.png 1.5x, /images/thumb/3/33/Friki_puzzle.png/72px-Friki_puzzle.png 2x" /></a></div></td>
+<td class="ambox-text"><b>Este anexo es una documentación acerca del uso apropiado de la plantilla Progreso.</b><br />
+<span style="font-size:90%">Los cambios hechos aquí serán transcluidos a <a href="frikileaks-plantilla—progreso.html" title="Plantilla:Progreso">esta página</a>. Puedes continuar <span class="plainlinks"><a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—progreso-uso.html"><font color="#002BB8">editando</font></a></span> esta sección si así lo preferieres.</span></td>
+
+</tr>
+</table>
+<h2><span class="mw-headline" id="Uso">Uso</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
+<ul><li><tt><b>{{Progreso|</b>porcentaje<b>}}</b></tt></li></ul>
+<dl><dd>El <tt>porcentaje</tt> es un número entre 0 y 100, sin el carácter <tt>%</tt>.</dd></dl>
+<ul><li><tt><b>{{Progreso|</b>parám1<b>|</b>parám2<b>}}</b></tt></li></ul>
+<dl><dd>Calcula el progreso como función de <tt>param1</tt> dividido sobre <tt>param2</tt></dd></dl>
+<ul><li><tt><b>{{Progreso|</b>parám1<b>|</b>parám2<b>|tarea=</b><i>parám3</i><b>}}</b></tt></li></ul>
+<dl><dd>Calcula el progreso como función de <tt>param1</tt> dividido sobre <tt>param2</tt>, y muestra una tarea u objetivo sobre la barra.</dd></dl>
+<h2><span class="mw-headline" id="Ejemplos">Ejemplos</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h2>
+<h3><span class="mw-headline" id="Un_par.C3.A1metro_.28porcentaje.29">Un parámetro (porcentaje)</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+<p><tt>{{Progreso|0}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>0%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+
+<tr>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|0.5}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>0,5%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 1%">
+</td>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|1}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>1%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 1%">
+</td>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|36.7}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>36,7%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 36.7%">
+</td>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|100}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>100%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 100%">
+</td></tr></table>
+</td></tr></table>
+<h3><span class="mw-headline" id="Dos_par.C3.A1metros">Dos parámetros</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+<p><tt>{{Progreso|0|250}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>0%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+
+<tr>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|100|250}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>40%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 40%">
+</td>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|200|300}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>66,7%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 66.7%">
+</td>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|300|300}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center"><big><b>100%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 100%">
+</td></tr></table>
+</td></tr></table>
+<h3><span class="mw-headline" id="Tres_par.C3.A1metros">Tres parámetros</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+<p><tt>{{Progreso|0|250|tarea=Categorizando artículos}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center">Categorizando artículos:&#160;<big><b>0%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+
+<tr>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+<p><tt>{{Progreso|100|250|tarea=Categorizando artículos}}</tt>&#160;:
+</p>
+<table width="50%" align="center" style="background: transparent">
+<tr>
+<td align="center">Categorizando artículos:&#160;<big><b>40%</b></big> completado
+</td></tr>
+<tr>
+<td>
+<table style="border: 1px solid gray" cellspacing="1" width="100%">
+<tr>
+<td style="background: #009fcd; width: 40%">
+</td>
+<td style="background: #E2E2E2;">
+</td></tr></table>
+</td></tr></table>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.104 seconds
+Real time usage: 0.107 seconds
+Preprocessor visited node count: 763/1000000
+Preprocessor generated node count: 1440/1000000
+Post‐expand include size: 6181/2097152 bytes
+Template argument size: 913/2097152 bytes
+Highest expansion depth: 8/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   47.508      1 - -total
+ 68.17%   32.385     11 - Plantilla:Progreso
+ 21.97%   10.440      1 - Plantilla:Documentación
+ 16.31%    7.748      1 - Plantilla:Metaplantilla
+  5.76%    2.736      1 - Plantilla:Editar
+-->
+<div id="cont"><p>Autor(es): <ul><li>Shadowmura</li></ul></p></div><div id="firma">Frikipedia 2005-2016, Licencia <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html">GFDL 1.2</a> - Extraído por FrikiLeaks</div></body></html>

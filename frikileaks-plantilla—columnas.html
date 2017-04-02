@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="es-ES">	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1"><title>Fikileaks - Plantilla:Columnas</title><style id='inline-css' type='text/css'>body {margin-left: auto;margin-right: auto;padding: 30px;border: 2px black solid;font-family: Arial, Helvetica, sans-serif;}#cont { font-size: 0.7em; }#firma { font-size: 0.7em; text-align:right; }.thumbcaption { font-size: 0.7em; border: 1px #ccc solid; font-style: italic;} </style></head><body><h1>Plantilla:Columnas</h1><p style="text-align:right"><img src="images/default.png" /> De: <a href="https://twitter.com/lafrikipedia">La Frikipedia</a>, la enciclopedia <strong>extremadamente</strong> seria.</a><div align="center"><table cellpadding="2" cellspacing="1" style="background-color:#afeeee&#160;; border:1px solid gray"><tr><td><img alt="Wikipediazo.jpg" src="images/thumb/3/30/Wikipediazo.jpg/30px-wikipediazo.jpg"" width="30" height="29" srcset="/images/thumb/3/30/Wikipediazo.jpg/45px-Wikipediazo.jpg 1.5x, /images/thumb/3/30/Wikipediazo.jpg/60px-Wikipediazo.jpg 2x" /></td>
+<td align="left">Esta plantilla proviene de la Wikipedia.</td>
+</tr></table>
+</div>
+<p><br />
+</p>
+<div style="clear: both; margin: 1em 0 0 0; background: #EEF9FA; border: 1px dotted #8BCBFF; color:#000; padding: 0.9em;">
+<div style="padding-bottom:3px; border-bottom: 1px solid #aaa; margin-bottom:1ex">
+<p><span class="editsection plainlinks" id="uso_editlinks">[<a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—columnas-uso.html">editar</a>] [<a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—columnas-uso.html">historial</a>] [<span class="noprint plainlinks purgelink"><a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—columnas.html"><span title="Purga esta página"><span lang="es">purgar</span></span></a></span>]</span>
+</p>
+<span style="font-size: 150%"><img alt="Informacion.svg" src="images/thumb/c/ca/Informacion.svg/35px-informacion.svg.png"" width="35" height="18" srcset="/images/thumb/c/ca/Informacion.svg/53px-Informacion.svg.png 1.5x, /images/thumb/c/ca/Informacion.svg/70px-Informacion.svg.png 2x" /> Documentación de plantilla</span></div>
+<h3><span class="mw-headline" id="Uso">Uso</span></h3>
+<p>Las <a href="frikileaks-ayuda—plantillas.html" title="Ayuda:Plantillas">plantillas</a> <tt>{{<strong class="selflink">Columnas</strong>}}</tt>, <tt>{{<a href="frikileaks-plantilla—nueva columna.html" title="Plantilla:Nueva columna">Nueva columna</a>}}</tt> y <tt>{{<a href="frikileaks-plantilla—final columnas.html" title="Plantilla:Final columnas">Final columnas</a>}}</tt> se usan en conjunto para crear columnas de contenido. Su uso se infiere fácilmente a partir del siguiente ejemplo:
+</p>
+<pre>
+{{columnas}}
+* [[Ananá]]
+* [[Fragaria|Frutilla]]
+* [[Limón]]
+{{nueva columna}}
+* [[Banana]]
+* [[Manzana]]
+* [[Melón]]
+{{nueva columna}}
+* [[Naranja]]
+* [[Pera]]
+* [[Sandía]]
+{{final columnas}}
+</pre>
+<p>Este código produce el siguiente resultado:
+</p>
+<div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:transparent;table-layout:fixed;">
+
+<tr valign="top">
+<td><div style="margin-right:20px;">
+<ul><li> <a  class="new" title="Ananá (la página no existe)">Ananá</a></li>
+<li> <a  class="new" title="Fragaria (la página no existe)">Frutilla</a></li>
+<li> <a  class="new" title="Limón (la página no existe)">Limón</a></li></ul>
+</div>
+</td>
+<td><div style="margin-right: 20px;">
+<ul><li> <a href="frikileaks-banana.html" title="Banana" class="mw-redirect">Banana</a></li>
+<li> <a href="frikileaks-manzana.html" title="Manzana">Manzana</a></li>
+<li> <a href="frikileaks-mel%c3%b3n.html" title="Melón" class="mw-redirect">Melón</a></li></ul>
+</div>
+</td>
+<td><div style="margin-right: 20px;">
+<ul><li> <a href="frikileaks-naranja.html" title="Naranja">Naranja</a></li>
+<li> <a  class="new" title="Pera (la página no existe)">Pera</a></li>
+<li> <a href="frikileaks-sand%c3%ada.html" title="Sandía">Sandía</a></li></ul>
+</div>
+</td></tr></table></div>
+<h3><span class="mw-headline" id="Par.C3.A1metros">Parámetros</span></h3>
+<p>El único parámetro disponible pertenece a la plantilla <tt>{{<strong class="selflink">columnas</strong>}}</tt>, y sirve para determinar el ancho de la página que habrán de ocupar las columnas. Puede especificarse un valor absoluto (<tt>300px</tt>) o un porcentaje del ancho total de la página (<tt>50%</tt>). Por ejemplo, para crear tres columnas que ocupen el 50% del ancho de la página:
+</p>
+<pre>
+{{columnas|50%}}
+* [[Ananá]]
+* [[Fragaria|Frutilla]]
+* [[Limón]]
+{{nueva columna}}
+* [[Banana]]
+* [[Manzana]]
+* [[Melón]]
+{{nueva columna}}
+* [[Naranja]]
+* [[Pera]]
+* [[Sandía]]
+{{final columnas}}
+</pre>
+<p>Que resulta en:
+</p>
+<div>
+<table width="50%" border="0" cellspacing="0" cellpadding="0" style="background-color:transparent;table-layout:fixed;">
+
+<tr valign="top">
+<td><div style="margin-right:20px;">
+<ul><li> <a  class="new" title="Ananá (la página no existe)">Ananá</a></li>
+<li> <a  class="new" title="Fragaria (la página no existe)">Frutilla</a></li>
+<li> <a  class="new" title="Limón (la página no existe)">Limón</a></li></ul>
+</div>
+</td>
+<td><div style="margin-right: 20px;">
+<ul><li> <a href="frikileaks-banana.html" title="Banana" class="mw-redirect">Banana</a></li>
+<li> <a href="frikileaks-manzana.html" title="Manzana">Manzana</a></li>
+<li> <a href="frikileaks-mel%c3%b3n.html" title="Melón" class="mw-redirect">Melón</a></li></ul>
+</div>
+</td>
+<td><div style="margin-right: 20px;">
+<ul><li> <a href="frikileaks-naranja.html" title="Naranja">Naranja</a></li>
+<li> <a  class="new" title="Pera (la página no existe)">Pera</a></li>
+<li> <a href="frikileaks-sand%c3%ada.html" title="Sandía">Sandía</a></li></ul>
+</div>
+</td></tr></table></div>
+<h3><span class="mw-headline" id="Plantillas_relacionadas">Plantillas relacionadas</span></h3>
+<ul><li> <tt>{{<a href="frikileaks-plantilla—nueva columna.html" title="Plantilla:Nueva columna">Nueva columna</a>}}</tt></li>
+<li> <tt>{{<a href="frikileaks-plantilla—final columnas.html" title="Plantilla:Final columnas">Final columnas</a>}}</tt><div style="clear: both;"></div></div></li></ul>
+<div style="clear: both; margin: 0.2em 0; border: 1px dotted #8BCBFF; background-color: #EEF9FA; color:#000; padding: 0.25em 0.9em; font-style: italic">Esta documentación está transcluida desde <a href="frikileaks-plantilla—columnas-uso.html" title="Plantilla:Columnas/uso">Plantilla:Columnas/uso</a>.<br /></div>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.072 seconds
+Real time usage: 0.170 seconds
+Preprocessor visited node count: 328/1000000
+Preprocessor generated node count: 1372/1000000
+Post‐expand include size: 9432/2097152 bytes
+Template argument size: 228/2097152 bytes
+Highest expansion depth: 10/40
+Expensive parser function count: 1/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  125.257      1 - -total
+ 55.47%   69.486      1 - Plantilla:Wikipedia
+ 44.37%   55.572      1 - Plantilla:Uso_de_plantilla
+ 32.58%   40.804      1 - Plantilla:Columnas/uso
+ 14.33%   17.946      6 - Plantilla:Ep
+  7.63%    9.554      1 - Plantilla:Purgar
+  5.58%    6.993      1 - Plantilla:Leng
+  2.65%    3.319      1 - Plantilla:Idiomausuario
+  1.56%    1.960      1 - Plantilla:Documentación
+  1.43%    1.790      4 - Plantilla:Nueva_columna
+-->
+<div id="cont"><p>Autor(es): <ul><li>Shadowmura</li></ul></p></div><div id="firma">Frikipedia 2005-2016, Licencia <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html">GFDL 1.2</a> - Extraído por FrikiLeaks</div></body></html>

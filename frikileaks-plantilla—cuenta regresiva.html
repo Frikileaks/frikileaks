@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="es-ES">	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1"><title>Fikileaks - Plantilla:Cuenta regresiva</title><style id='inline-css' type='text/css'>body {margin-left: auto;margin-right: auto;padding: 30px;border: 2px black solid;font-family: Arial, Helvetica, sans-serif;}#cont { font-size: 0.7em; }#firma { font-size: 0.7em; text-align:right; }.thumbcaption { font-size: 0.7em; border: 1px #ccc solid; font-style: italic;} </style></head><body><h1>Plantilla:Cuenta regresiva</h1><p style="text-align:right"><img src="images/default.png" /> De: <a href="https://twitter.com/lafrikipedia">La Frikipedia</a>, la enciclopedia <strong>extremadamente</strong> seria.</a><div align="center"><table cellpadding="2" cellspacing="1" style="background-color:#afeeee&#160;; border:1px solid gray"><tr><td><img alt="Wikipediazo.jpg" src="images/thumb/3/30/Wikipediazo.jpg/30px-wikipediazo.jpg"" width="30" height="29" srcset="/images/thumb/3/30/Wikipediazo.jpg/45px-Wikipediazo.jpg 1.5x, /images/thumb/3/30/Wikipediazo.jpg/60px-Wikipediazo.jpg 2x" /></td>
+<td align="left">Esta plantilla proviene de la Wikipedia.</td>
+</tr></table>
+</div>
+<p><br />El evento ha finalizado.
+</p>
+<div style="clear: both; margin: 1em 0 0 0; background: #EEF9FA; border: 1px dotted #8BCBFF; color:#000; padding: 0.9em;">
+<div style="padding-bottom:3px; border-bottom: 1px solid #aaa; margin-bottom:1ex">
+<p><span class="editsection plainlinks" id="uso_editlinks">[<a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—cuenta regresiva-uso.html">editar</a>] [<a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—cuenta regresiva-uso.html">historial</a>] [<span class="noprint plainlinks purgelink"><a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—cuenta regresiva.html"><span title="Purga esta página"><span lang="es">purgar</span></span></a></span>]</span>
+</p>
+<span style="font-size: 150%"><img alt="Informacion.svg" src="images/thumb/c/ca/Informacion.svg/35px-informacion.svg.png"" width="35" height="18" srcset="/images/thumb/c/ca/Informacion.svg/53px-Informacion.svg.png 1.5x, /images/thumb/c/ca/Informacion.svg/70px-Informacion.svg.png 2x" /> Documentación de plantilla</span></div>
+<p>Esta plantilla calcula el tiempo que falta para una determinada fecha, pudiendo usarse para indicar una cuenta regresiva a un cierto evento.
+</p>
+<h3><span class="mw-headline" id="Uso">Uso</span></h3>
+<pre>{{Cuenta regresiva
+|evento = 
+|año = 
+|mes = 
+|día = 
+|hora = 
+|minutos = 
+|segundos = 
+|tiempo = 
+|duración = 
+|mensaje inicio = 
+|mensaje final = 
+|color = 
+}}</pre>
+<h4><span class="mw-headline" id="Par.C3.A1metros">Parámetros</span></h4>
+<dl><dt>Obligatorios</dt>
+<dd> Ninguno</dd></dl>
+<dl><dt>Opcionales</dt>
+<dd></dd></dl>
+<dl><dt>evento</dt>
+<dd> Nombre del evento</dd>
+<dt>año</dt>
+<dd> Año en que ocurre el evento, sin espacios, comas o puntos separando los miles.</dd>
+<dt>mes</dt>
+<dd> Mes en formato numérico. Enero es 1; febrero, 2; etc.</dd>
+<dt>día</dt>
+<dd> Día del mes, también en formato numérico.</dd>
+<dt>hora</dt>
+<dd> Hora del evento. Siendo un número entre 0 y 23.</dd>
+<dt>tiempo</dt>
+<dd> En vez de dar la fecha se puede dar un tiempo específico en segundos, siendo el 1º de enero de 1970 a las 00:00 hs el segundo 0.</dd>
+<dt>duración</dt>
+<dd> Tiempo en segundos que durará el evento.</dd>
+<dt>mensaje inicio</dt>
+<dd> Mensaje que se visualizará durante el evento.</dd>
+<dt>mensaje final</dt>
+<dd> Mensaje que se visualizará luego de que el evento haya finalizado.</dd>
+<dt>color</dt>
+<dd> Se puede especificar un color para la cuenta atrás, por defecto es rojo.</dd></dl>
+<h4><span class="mw-headline" id="Ejemplos_de_uso">Ejemplos de uso</span></h4>
+<pre>{{Cuenta regresiva
+|evento = el comienzo del siglo C
+|año = 9901
+|mes = 1
+|día = 1
+|hora = 0
+|minutos = 0
+|segundos = 0
+}}</pre>
+<dl><dt>Resulta en</dt>
+<dd></dd></dl>
+<p>Faltan <b><span style="color:red">2879683</span></b> días <b><span style="color:red">15</span></b> horas para el comienzo del siglo C.
+</p>
+<pre>{{Cuenta regresiva
+|evento = El [[día de pi]]
+|tiempo = 3141592654
+|color = green
+}}</pre>
+<dl><dt>Resulta en</dt>
+<dd></dd></dl>
+<p>Faltan <b><span style="color:green">19306</span></b> días <b><span style="color:green">15</span></b> horas para el <a  class="new" title="Día de pi (la página no existe)">día de pi</a>.
+</p>
+<pre>{{Cuenta regresiva
+|año = 2000
+}}</pre>
+<dl><dt>Resulta en</dt>
+<dd></dd></dl>
+<p>El evento ha finalizado.
+</p>
+<pre>{{Cuenta regresiva
+|evento = el siglo XXI
+|inicio = 2000
+|mes = 12
+|día = 31
+|duración = 3600
+|mensaje inicio = ¡Falta un día para el siglo XXI!
+|mensaje final = ¡Bienvenido siglo XXI!
+}}</pre>
+<dl><dt>Resulta en</dt>
+<dd></dd></dl>
+El siglo XXI ha finalizado.<div style="clear: both;"></div></div>
+<div style="clear: both; margin: 0.2em 0; border: 1px dotted #8BCBFF; background-color: #EEF9FA; color:#000; padding: 0.25em 0.9em; font-style: italic">Esta documentación está transcluida desde <a href="frikileaks-plantilla—cuenta regresiva-uso.html" title="Plantilla:Cuenta regresiva/uso">Plantilla:Cuenta regresiva/uso</a>.<br /></div>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.068 seconds
+Real time usage: 0.100 seconds
+Preprocessor visited node count: 403/1000000
+Preprocessor generated node count: 4787/1000000
+Post‐expand include size: 9537/2097152 bytes
+Template argument size: 263/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 2/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   78.176      1 - -total
+ 65.33%   51.076      1 - Plantilla:Uso_de_plantilla
+ 50.29%   39.318      1 - Plantilla:Cuenta_regresiva/uso
+ 30.69%   23.996      1 - Plantilla:Wikipedia
+ 21.38%   16.712      4 - Plantilla:Cuenta_regresiva
+  9.77%    7.640      1 - Plantilla:Purgar
+  7.64%    5.974      1 - Plantilla:Leng
+  4.20%    3.287      1 - Plantilla:Idiomausuario
+  2.49%    1.950      1 - Plantilla:Documentación
+-->
+<div id="cont"><p>Autor(es): <ul><li>Shadowmura</li></ul></p></div><div id="firma">Frikipedia 2005-2016, Licencia <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html">GFDL 1.2</a> - Extraído por FrikiLeaks</div></body></html>

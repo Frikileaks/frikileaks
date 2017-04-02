@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="es-ES">	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1"><title>Fikileaks - Plantilla:Metaplantilla</title><style id='inline-css' type='text/css'>body {margin-left: auto;margin-right: auto;padding: 30px;border: 2px black solid;font-family: Arial, Helvetica, sans-serif;}#cont { font-size: 0.7em; }#firma { font-size: 0.7em; text-align:right; }.thumbcaption { font-size: 0.7em; border: 1px #ccc solid; font-style: italic;} </style></head><body><h1>Plantilla:Metaplantilla</h1><p style="text-align:right"><img src="images/default.png" /> De: <a href="https://twitter.com/lafrikipedia">La Frikipedia</a>, la enciclopedia <strong>extremadamente</strong> seria.</a><div align="center"><table cellpadding="2" cellspacing="1" style="background-color:#afeeee&#160;; border:1px solid gray"><tr><td><img alt="Wikipediazo.jpg" src="images/thumb/3/30/Wikipediazo.jpg/30px-wikipediazo.jpg"" width="30" height="29" srcset="/images/thumb/3/30/Wikipediazo.jpg/45px-Wikipediazo.jpg 1.5x, /images/thumb/3/30/Wikipediazo.jpg/60px-Wikipediazo.jpg 2x" /></td>
+<td align="left">Esta plantilla proviene de la Wikipedia.</td>
+</tr></table>
+</div>
+<br /><table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/e/ed/noticia_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text">No has escrito ninguna chorrada</td>
+</tr>
+</table>
+<div style="clear: both; margin: 1em 0 0 0; background: #EEF9FA; border: 1px dotted #8BCBFF; color:#000; padding: 0.9em;">
+<div style="padding-bottom:3px; border-bottom: 1px solid #aaa; margin-bottom:1ex">
+<p><span class="editsection plainlinks" id="uso_editlinks">[<a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—metaplantilla-uso.html">editar</a>] [<a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—metaplantilla-uso.html">historial</a>] [<span class="noprint plainlinks purgelink"><a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—metaplantilla.html"><span title="Purga esta página"><span lang="es">purgar</span></span></a></span>]</span>
+</p>
+<span style="font-size: 150%"><img alt="Informacion.svg" src="images/thumb/c/ca/Informacion.svg/35px-informacion.svg.png"" width="35" height="18" srcset="/images/thumb/c/ca/Informacion.svg/53px-Informacion.svg.png 1.5x, /images/thumb/c/ca/Informacion.svg/70px-Informacion.svg.png 2x" /> Documentación de plantilla</span></div>
+<h3><span class="mw-headline" id="Par.C3.A1metros">Parámetros</span></h3>
+<pre style="overflow:auto;">
+{{Metaplantilla
+| tipo  = protección / serio / contenido / estilo  / aviso
+| imagen = ninguna / vacío / [[Archivo:Alguna imagen.png|40px]]
+| imagen derecha = [[Archivo:Alguna imagen.png|40px]]
+| texto  = El cuerpo del mensaje.
+| estilo = Reglas CSS.
+| advertir = si / sí
+}}
+</pre>
+<table class="wikitable">
+<tr>
+<th>Parámetro
+</th>
+<th>¿Opcional?
+</th>
+<th>Descripción
+</th></tr>
+<tr>
+<td><b>tipo</b>
+</td>
+<td>Sí
+</td>
+<td>Si no se especifica este parámetro, se usará el tipo predeterminado (<code>aviso</code>), que tiene una barra superior azul como en el ejemplo de uso simple de más arriba.
+</td></tr>
+<tr>
+<td><b>imagen</b>
+</td>
+<td>Sí
+</td>
+<td>
+<ul><li><b>Sin parámetro</b> = Si no se especifica el parámetro <code>imagen</code> la plantilla utiliza la imagen predeterminada. La imagen predeterminada usada depende del parámetro <code>tipo</code>.</li>
+<li><b>Una imagen</b> = Debe ser una imagen con el código wiki común entre 38px - 48px. Por ejemplo: <code>[[Archivo:Friki puzzle.png|40px]]</code></li>
+<li><b>ninguna</b> = Significa que no se utiliza ninguna imagen.</li>
+<li><b>vacío</b> = Significa que no se usa ninguna imagen pero se usa una superficie vacía de tamaño igual al de la imagen predeterminada, lo que significa que el texto se alinea bien con los textos de otras plantillas de aviso (véanse los ejemplos «especiales» de más arriba).</li></ul>
+</td></tr>
+<tr>
+<td><b>imagen derecha</b>
+</td>
+<td>Sí
+</td>
+<td>
+<ul><li><b>Sin parámetro</b> = Si no se especifica el parámetro <b>imagen derecha</b>, no se muestra ninguna otra imagen en la parte derecha.</li>
+<li><b>Una imagen</b> = Debe ser una imagen con el código wiki común entre 38px y 48px. Por ejemplo: <code>[[Archivo:Friki puzzle.png|40px]]</code></li>
+<li><b>Cualquiera</b> = Cualquier otro objeto que desees mostrar en la parte derecha.</li></ul>
+</td></tr>
+<tr>
+<td><b>estilo</b>
+</td>
+<td>Sí
+</td>
+<td>Un valor opcional de CSS usado por la metaplantilla, encerrando HTML:
+<dl><dd><code>&lt;table style="{{{<b>estilo</b>|}}}" class="..."&gt; ... &lt;/table&gt;</code></dd></dl>
+</td></tr>
+<tr>
+<td><b>texto</b>
+</td>
+<td>No
+</td>
+<td>El cuerpo del mensaje.
+</td></tr>
+<tr>
+<td><b>advertir</b>
+</td>
+<td>Sí
+</td>
+<td>Con esta opción puedes hacer que la página en la cual se insertó la metaplantilla sea revisada por un administrador. No abusar de este privilegio.
+</td></tr></table>
+<h3><span class="mw-headline" id="Uso">Uso</span></h3>
+<ul><li> <b>Ejemplo de uso simple</b>:</li></ul>
+<pre style="margin-left:1.5em">{{Metaplantilla | Algún texto.}}</pre>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/e/ed/noticia_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text"> Algún texto.</td>
+</tr>
+</table>
+<ul><li> <b>Ejemplo más complejo</b>:</li></ul>
+<pre style="margin-left:1.5em">
+{{Metaplantilla
+| tipo = estilo
+| imagen = [[Archivo:Conejo-logo.png|40px|link=|alt=]]
+| estilo = width: 400px; color: red; font-weight: bold; font-style: italic
+| texto = El cuerpo del mensaje.
+}}
+</pre>
+<table style="width: 400px; color: red; font-weight: bold; font-style: italic" class="noprint plainlinks ambox ambox-style">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/thumb/e/ef/Conejo-logo.png/40px-conejo-logo.png"" width="40" height="35" srcset="/images/thumb/e/ef/Conejo-logo.png/60px-Conejo-logo.png 1.5x, /images/thumb/e/ef/Conejo-logo.png/80px-Conejo-logo.png 2x" /></div></td>
+<td class="ambox-text">El cuerpo del mensaje.</td>
+</tr>
+</table>
+<p>Según el valor que se especifique al parámetro <code>tipo=</code>, la metaplantilla mostrará un recuadro con una banda de distinto color e icono, como se puede ver en los siguientes ejemplos:
+</p>
+<table style="" class="noprint plainlinks ambox ambox-protection">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/2/29/candado_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text"><code>tipo=<u>protección</u></code> – Puedes usar esta plantilla para solicitar la protección y/o semiprotección de una página en especial.</td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-serious">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/6/62/serious_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text"><code>tipo=<u>serio</u></code> – Plantilla crítica, cuestiones de borrado; como insultos a terceros, faltas graves o insinuaciones ofensivas.</td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-content">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/thumb/3/33/Friki_puzzle.png/36px-friki_puzzle.png"" width="36" height="36" srcset="/images/thumb/3/33/Friki_puzzle.png/54px-Friki_puzzle.png 1.5x, /images/thumb/3/33/Friki_puzzle.png/72px-Friki_puzzle.png 2x" /></div></td>
+<td class="ambox-text"><code>tipo=<u>contenido</u></code> – ¿El contenido de la página no va de acuerdo a tus creencias? Puedes usar esta plantilla para dar una alerta general.</td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-style">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/4/4d/stylish_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text"><code>tipo=<u>estilo</u></code> – Puedes usar esta plantilla para alertar a los administradores sobre problemas en las cuestiones de estilo de los artículos, como <a href="frikileaks-ctrl%2bc ctrl%2bv.html" title="Ctrl+C Ctrl+V">copypasteo</a> o vandalismo.</td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/e/ed/noticia_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text"><code>tipo=<u>aviso</u></code> – Usa esta plantilla para resaltar la poca ética que tienen algunas redacciones.</td>
+</tr>
+</table>
+<h4><span class="mw-headline" id="Especial">Especial</span></h4>
+<p>Algunas otras combinaciones de parámetros.
+</p>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/e/ed/noticia_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text">Sin especificar tipo e imagen (predeterminado)</td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/e/ea/empty_commons.png"" width="1" height="1" /></div></td>
+<td class="ambox-text">Sin tipo e <code>imagen=vacío</code> – Produce una superficie vacía del mismo tamaño de la imagen predeterminada. Hace que el texto se alinee bien con otras plantillas de aviso.</td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+</td>
+<td class="ambox-text">Sin tipo e <code>imagen=ninguna</code> – No se usa ninguna imagen y el texto usa toda la superficie de la plantilla.</td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <a  class="image"><img alt="World-icon.png" src="images/thumb/c/cb/World-icon.png/40px-world-icon.png"" width="40" height="39" srcset="/images/thumb/c/cb/World-icon.png/60px-World-icon.png 1.5x, /images/thumb/c/cb/World-icon.png/80px-World-icon.png 2x" /></a></div></td>
+<td class="ambox-text"><code>imagen=[[Archivo:World-icon.png|40px]]<br />imagen derecha = [[Archivo:Diversidad biologica.png|40px]]</code></td>
+<td class="ambox-imageright"><div style="width:50px;"><a  class="image"><img alt="Diversidad biologica.png" src="images/thumb/d/df/Diversidad_biologica.png/40px-diversidad_biologica.png"" width="40" height="33" srcset="/images/d/df/Diversidad_biologica.png 1.5x, /images/d/df/Diversidad_biologica.png 2x" /></a></div></td>
+</tr>
+</table>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <a  class="image"><img alt="Sombrero de bruja.png" src="images/thumb/e/e9/Sombrero_de_bruja.png/40px-sombrero_de_bruja.png"" width="40" height="27" srcset="/images/e/e9/Sombrero_de_bruja.png 1.5x, /images/e/e9/Sombrero_de_bruja.png 2x" /></a></div></td>
+<td class="ambox-text"><b>Este artículo o sección documenta un vuelo espacial</b> actual.<br /><span style="font-size:88%;">El contenido puede variar a medida que la misión avanza.</span></td>
+<td class="ambox-imageright"><div style="width:50px;"><a  class="image"><img alt="Pluma y tintero.png" src="images/thumb/4/45/Pluma_y_tintero.png/40px-pluma_y_tintero.png"" width="40" height="33" srcset="/images/4/45/Pluma_y_tintero.png 1.5x, /images/4/45/Pluma_y_tintero.png 2x" /></a></div></td>
+</tr>
+</table>
+<h3><span class="mw-headline" id="Detalles_t.C3.A9cnicos">Detalles técnicos</span></h3>
+<p>Si necesitas usar caracteres especiales en el parámetro texto, entonces debes evitarlos así: 
+</p>
+<pre>
+{{metaplantilla
+| texto  = &lt;div&gt;
+El signo igual = y las llaves { } funcionan bien.
+Pero aquí hay una barra {{!}} y dos llaves de fin }}. 
+Y ahora una barra y llaves de fin |}}.
+&lt;/div&gt;
+}}
+</pre>
+<table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <img alt="" src="images/e/ed/noticia_commons.png"" width="40" height="40" /></div></td>
+<td class="ambox-text"><div>
+<p>El signo igual = y las llaves { } funcionan bien.
+Pero aquí hay una barra | y dos llaves de fin }}. 
+Y ahora una barra y llaves de fin |}}.
+</p>
+</div></td>
+</tr>
+</table>
+<p>Esta plantilla usa clases CSS para la mayoría de su aspecto, por lo que se pueden crear «pieles».
+</p>
+Esta plantilla utiliza internamente HTML en lugar de código wiki para el código de la tabla. Esta es la manera típica para hacer metaplantillas ya que el código wiki tiene algunos inconvenientes. Por ejemplo, hace más complicado usar <a class="external text" href="http://www.mediawiki.org/wiki/Help:Extension:ParserFunctions/es">ParserFunctions</a> y caracteres especiales en los parámetros.<div style="clear: both;"></div></div>
+<div style="clear: both; margin: 0.2em 0; border: 1px dotted #8BCBFF; background-color: #EEF9FA; color:#000; padding: 0.25em 0.9em; font-style: italic">Esta documentación está transcluida desde <a href="frikileaks-plantilla—metaplantilla-uso.html" title="Plantilla:Metaplantilla/uso">Plantilla:Metaplantilla/uso</a>.<br /></div>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.132 seconds
+Real time usage: 0.238 seconds
+Preprocessor visited node count: 760/1000000
+Preprocessor generated node count: 2079/1000000
+Post‐expand include size: 32963/2097152 bytes
+Template argument size: 2344/2097152 bytes
+Highest expansion depth: 10/40
+Expensive parser function count: 1/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   86.339      1 - -total
+ 84.70%   73.132      1 - Plantilla:Doc
+ 69.69%   60.167      1 - Plantilla:Metaplantilla/uso
+ 34.62%   29.893     13 - Plantilla:Metaplantilla
+ 13.01%   11.230      1 - Plantilla:Wikipedia
+  8.77%    7.571      1 - Plantilla:Purgar
+  6.79%    5.866      1 - Plantilla:Leng
+  3.65%    3.152      1 - Plantilla:Idiomausuario
+  2.37%    2.048      1 - Plantilla:Documentación
+-->
+<div id="cont"><p>Autor(es): <ul><li>Shadowmura</li></ul></p></div><div id="firma">Frikipedia 2005-2016, Licencia <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html">GFDL 1.2</a> - Extraído por FrikiLeaks</div></body></html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="es-ES">	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, maximum-scale=1"><title>Fikileaks - Plantilla:Leng/uso</title><style id='inline-css' type='text/css'>body {margin-left: auto;margin-right: auto;padding: 30px;border: 2px black solid;font-family: Arial, Helvetica, sans-serif;}#cont { font-size: 0.7em; }#firma { font-size: 0.7em; text-align:right; }.thumbcaption { font-size: 0.7em; border: 1px #ccc solid; font-style: italic;} </style></head><body><h1>Plantilla:Leng/uso</h1><p style="text-align:right"><img src="images/default.png" /> De: <a href="https://twitter.com/lafrikipedia">La Frikipedia</a>, la enciclopedia <strong>extremadamente</strong> seria.</a><table style="" class="noprint plainlinks ambox ambox-notice">
+<tr>
+<td class="ambox-image">
+<div style="width:50px;"> <a  class="image"><img alt="Friki puzzle.png" src="images/thumb/3/33/Friki_puzzle.png/36px-friki_puzzle.png"" width="36" height="36" srcset="/images/thumb/3/33/Friki_puzzle.png/54px-Friki_puzzle.png 1.5x, /images/thumb/3/33/Friki_puzzle.png/72px-Friki_puzzle.png 2x" /></a></div></td>
+<td class="ambox-text"><b>Este anexo es una documentación acerca del uso apropiado de la plantilla Leng.</b><br />
+<span style="font-size:90%">Los cambios hechos aquí serán transcluidos a <a href="frikileaks-plantilla—leng.html" title="Plantilla:Leng">esta página</a>. Puedes continuar <span class="plainlinks"><a rel="nofollow" class="external text" href="//192.168.112.128frikileaks-plantilla—leng-uso.html"><font color="#002BB8">editando</font></a></span> esta sección si así lo preferieres.</span></td>
+
+</tr>
+</table>
+<h3><span class="mw-headline" id="Uso">Uso</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+<p>Esta plantilla permite mostrar mensajes en diferentes idiomas, dependiendo del cada usuario haya especificado en sus <a  title="Especial:Preferencias">preferencias</a>.
+</p>
+<dl><dd><code>{{leng|xx|mensaje en idioma xx|mensaje alternativo}}</code></dd></dl>
+<dl><dt>Parámetros</dt></dl>
+<ul><li> <i>xx</i>: representa la abreviatura del idioma (en = inglés; es = español; fr = francés...). Existe una abreviatura especial, <code>ESP</code>, utilizada para englobar, además del español, a todas las lenguas cooficiales que pueden existir en el territorio español.</li>
+<li> <i>mensaje en idioma xx</i>: mensaje a mostrar en caso de que el usuario haya definido en sus preferencias el idioma especificado en el primer parámetro. Si no es así, se mostrará el mensaje alternativo.</li>
+<li> <i>mensaje alternativo</i>: mensaje a mostrar en caso de que el usuario <i><b>NO</b></i> haya definido en sus preferencias el idioma especificado en el primer parámetro.</li></ul>
+<h3><span class="mw-headline" id="Ejemplos">Ejemplos</span><span class="mw-editsection"><span class="mw-editsection-bracket"></span></span></h3>
+<ul><li> Queremos mostrar un mensaje en español para los que hayan definido la interfaz en español. Si han elegido cualquier otro idioma, mostraremos un mensaje en inglés.</li></ul>
+<dl><dd><dl><dd><b>Código</b>:
+<dl><dd><code>{{leng|es|Mensaje de ejemplo.|Example.}}</code></dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><b>Resultado</b>:
+<dl><dd><span lang="es">Mensaje de ejemplo.</span></dd></dl></dd></dl></dd></dl>
+<ul><li> Queremos mostrar un mensaje en español para los que hayan definido el castellano, o cualquiera de las lenguas cooficiales existentes en España. Si han elegido cualquier otro idioma, mostraremos un mensaje en inglés.</li></ul>
+<dl><dd><dl><dd><b>Código</b>:
+<dl><dd><code>{{leng|ESP|Mensaje de ejemplo.|Example.}}</code></dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><b>Resultado</b>:
+<dl><dd>Mensaje de ejemplo.</dd></dl></dd></dl></dd></dl>
+<ul><li> Queremos mostrar un mensaje en español para los que hayan definido el español. También queremos mostrarlo en francés para los que hayan definido el francés. Y si no han elegido ninguno de estos dos idiomas, mostraremos un mensaje en inglés.</li></ul>
+<dl><dd><dl><dd><b>Código</b>:
+<dl><dd><code>{{leng|es|Mensaje de ejemplo.| {{leng|fr|Note d'exemple|Example.}} }}</code></dd></dl></dd></dl></dd></dl>
+<dl><dd><dl><dd><b>Resultado</b>:
+<dl><dd><span lang="es">Mensaje de ejemplo.</span></dd></dl></dd></dl></dd></dl>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.152 seconds
+Real time usage: 0.156 seconds
+Preprocessor visited node count: 278/1000000
+Preprocessor generated node count: 1130/1000000
+Post‐expand include size: 2826/2097152 bytes
+Template argument size: 579/2097152 bytes
+Highest expansion depth: 8/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   35.519      1 - -total
+ 72.06%   25.596      3 - Plantilla:Leng
+ 36.83%   13.080      3 - Plantilla:Idiomausuario
+ 24.13%    8.572      1 - Plantilla:Documentación
+ 17.40%    6.180      1 - Plantilla:Metaplantilla
+  5.40%    1.919      1 - Plantilla:Editar
+-->
+<div id="cont"><p>Autor(es): <ul><li>Shadowmura</li></ul></p></div><div id="firma">Frikipedia 2005-2016, Licencia <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.html">GFDL 1.2</a> - Extraído por FrikiLeaks</div></body></html>
